@@ -62,17 +62,25 @@ namespace CSharp_excercises
 
             //Excercises 16
 
-            Console.WriteLine(first_last("w3resource"));
-            Console.WriteLine(first_last("Python"));
-            Console.WriteLine(first_last("x"));
+            //    Console.WriteLine(first_last("w3resource"));
+            //    Console.WriteLine(first_last("Python"));
+            //    Console.WriteLine(first_last("x"));
 
+            //    Console.ReadKey();
+            //}
+
+            //public static string first_last(string ustr)
+            //{
+            //    return ustr.Length > 1
+            //        ? ustr.Substring(ustr.Length - 1) + ustr.Substring(1, ustr.Length - 2) + ustr.Substring(0, 1) : ustr;
+            //}
+
+            //Excercises 17
+            Console.Write("Text: ");
+            string text = Console.ReadLine();
+            string extract = text.Substring(0, 1);
+            Console.WriteLine("{0}{1}{0}", extract, text, extract);
             Console.ReadKey();
-        }
-
-        public static string first_last(string ustr)
-        {
-            return ustr.Length > 1
-                ? ustr.Substring(ustr.Length - 1) + ustr.Substring(1, ustr.Length - 2) + ustr.Substring(0, 1) : ustr;
         }
     }
 }
