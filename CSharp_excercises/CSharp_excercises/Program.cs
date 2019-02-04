@@ -15,7 +15,7 @@ namespace CSharp_excercises
             //var age = Convert.ToInt32(Console.ReadLine());
             //Console.WriteLine("You look older than {0}", age);
             //Console.ReadKey();       
-            
+
             ////Excercises 12
             //Console.Write("Enter a number: ");
             //var number = Console.ReadLine();
@@ -39,12 +39,14 @@ namespace CSharp_excercises
             //Excercises 14
             Console.Write("Text: ");
             var text = Console.ReadLine();
-            
-            Console.WriteLine("{0}", text.Remove(1));
-            Console.WriteLine("{0}", text.Remove(-1));
-            Console.WriteLine("{0}", text.Remove(0));
+
+            Console.WriteLine("{0}", text.Remove(1, 1));
+            Console.WriteLine("{0}", text.Remove(text.Length - 1, 1));
+            Console.WriteLine("{0}", text.Remove(0, 1));
+
 
             Console.ReadKey();
         }
+
     }
 }
