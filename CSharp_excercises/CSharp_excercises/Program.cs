@@ -184,23 +184,35 @@ namespace CSharp_excercises
             //}
 
             //Excercise 19
+            //Console.Write("Enter first integer: ");
+            //var number_1 = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Enter second integer: ");
+            //var number_2 = Convert.ToInt32(Console.ReadLine());
+            //if (number_1  == number_2)
+            //{
+            //    Console.WriteLine((number_1 + number_2) * 3);
+            //}
+            //else
+            //{
+            //    Console.WriteLine(number_1 + number_2);
+            //}
+            //Console.ReadKey();
+
+            //Excercise 20
             Console.Write("Enter first integer: ");
             var number_1 = Convert.ToInt32(Console.ReadLine());
             Console.Write("Enter second integer: ");
             var number_2 = Convert.ToInt32(Console.ReadLine());
-            if (number_1  == number_2)
+            if (number_1 > number_2)
             {
-                Console.WriteLine((number_1 + number_2) * 3);
+                Console.WriteLine((number_1 - number_2)*2);
             }
             else
             {
-                Console.WriteLine(number_1 + number_2);
+                Console.WriteLine(number_2 - number_1);
             }
             Console.ReadKey();
-
-        
-
-
+                       
         }
     }
 }
