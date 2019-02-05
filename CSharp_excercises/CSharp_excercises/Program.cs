@@ -225,17 +225,32 @@ namespace CSharp_excercises
 
 
             //Excercise 22
+            //Console.Write("Enter an integer: ");
+            //int x = Convert.ToInt32(Console.ReadLine());
+
+            //if (Math.Abs(x - 100) <=10 || Math.Abs(x - 200) <= 10)
+            //{
+            //    Console.WriteLine(true);
+            //} else
+            //{
+            //Console.WriteLine(false);
+            //}
+
+            //Console.ReadKey();
+
+
+            //Excercise 23
             Console.Write("Enter an integer: ");
-            int x = Convert.ToInt32(Console.ReadLine());
+            string x = Console.ReadLine();
 
-            if (Math.Abs(x - 100) <=10 || Math.Abs(x - 200) <= 10)
+            if (x.ToLower().Contains("uppercase"))
             {
-                Console.WriteLine(true);
-            } else
-            {
-            Console.WriteLine(false);
+                Console.WriteLine("lowercase: {0}", x.ToLower().Replace("uppercase", "lowercase"));
             }
-
+            else
+            {
+                Console.WriteLine("lowercase: {0}", x.ToLower());
+            }
             Console.ReadKey();
         }
     }
