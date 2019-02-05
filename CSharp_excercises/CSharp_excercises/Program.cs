@@ -164,12 +164,43 @@ namespace CSharp_excercises
             //        ? ustr.Substring(ustr.Length - 1) + ustr.Substring(1, ustr.Length - 2) + ustr.Substring(0, 1) : ustr;
             //}
 
-            //Excercises 17
-            Console.Write("Text: ");
-            string text = Console.ReadLine();
-            string extract = text.Substring(0, 1);
-            Console.WriteLine("{0}{1}{0}", extract, text, extract);
+            ////Excercises 17
+            //Console.Write("Text: ");
+            //string text = Console.ReadLine();
+            //string extract = text.Substring(0, 1);
+            //Console.WriteLine("{0}{1}{0}", extract, text, extract);
+            //Console.ReadKey();
+
+            //Excercise 18
+            //Console.Write("Enter first integer: ");
+            //var number_1 = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Enter second integer: ");
+            //var number_2 = Convert.ToInt32(Console.ReadLine());
+            //if (number_1 > 0 || number_2 > 0)
+            //{
+            //    Console.WriteLine((number_1 < 0 && number_2 > 0) || (number_1 > 0 && number_2 < 0));
+
+            //    Console.ReadKey();
+            //}
+
+            //Excercise 19
+            Console.Write("Enter first integer: ");
+            var number_1 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter second integer: ");
+            var number_2 = Convert.ToInt32(Console.ReadLine());
+            if (number_1  == number_2)
+            {
+                Console.WriteLine((number_1 + number_2) * 3);
+            }
+            else
+            {
+                Console.WriteLine(number_1 + number_2);
+            }
             Console.ReadKey();
+
+        
+
+
         }
     }
 }
