@@ -238,20 +238,29 @@ namespace CSharp_excercises
 
             //Console.ReadKey();
 
-
             //Excercise 23
-            Console.Write("Enter an integer: ");
-            string x = Console.ReadLine();
+            //Console.Write("Enter an integer: ");
+            //string x = Console.ReadLine();
 
-            if (x.ToLower().Contains("uppercase"))
-            {
-                Console.WriteLine("lowercase: {0}", x.ToLower().Replace("uppercase", "lowercase"));
-            }
-            else
-            {
-                Console.WriteLine("lowercase: {0}", x.ToLower());
-            }
+            //if (x.ToLower().Contains("uppercase"))
+            //{
+            //    Console.WriteLine("lowercase: {0}", x.ToLower().Replace("uppercase", "lowercase"));
+            //}
+            //else
+            //{
+            //    Console.WriteLine("lowercase: {0}", x.ToLower());
+            //}
+            //Console.ReadKey();
+
+            //Excercise 24
+            Console.Write("Enter an sentence: ");
+            string x = Console.ReadLine();
+            string[] words = x.Split(' ');
+            string final = words.OrderByDescending(n => n.Length). First();
+
+            Console.WriteLine(final);
             Console.ReadKey();
+            
         }
     }
 }
