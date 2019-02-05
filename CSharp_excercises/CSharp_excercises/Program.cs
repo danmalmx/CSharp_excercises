@@ -129,7 +129,7 @@ namespace CSharp_excercises
 
             //Console.ReadKey();
 
-            ////Excercises 14
+            ////Excercise 14
             //Console.Write("Enter degrees in Celcius: ");
             //var number = Convert.ToInt32(Console.ReadLine());
             //float kelvin = number +273.15f;
@@ -139,7 +139,7 @@ namespace CSharp_excercises
             //Console.WriteLine("Farenheit = {0}", farenheit);
             //Console.ReadKey();
 
-            //Excercises 15
+            //Excercise 15
             //Console.Write("Text: ");
             //var text = Console.ReadLine();
 
@@ -149,7 +149,7 @@ namespace CSharp_excercises
 
             //Console.ReadKey();
 
-            //Excercises 16
+            //Excercise 16
 
             //    Console.WriteLine(first_last("w3resource"));
             //    Console.WriteLine(first_last("Python"));
@@ -165,27 +165,11 @@ namespace CSharp_excercises
             //}
 
             //Excercises 17
-            //Console.Write("Text: ");
-            //string text = Console.ReadLine();
-            //string extract = text.Substring(0, 1);
-            //Console.WriteLine("{0}{1}{0}", extract, text, extract);
-            //Console.ReadKey();
-
-            //Excercise 18
-            Console.Write("Enter first integer: ");
-            var number_1 = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Enter second integer: ");
-            var number_2 = Convert.ToInt32(Console.ReadLine());
-            if (number_1 > 0 || number_2 > 0)
-            {
-                Console.WriteLine("Check if one is negative and one is positive: {0}", false);
-                Console.ReadKey();
-            }
-            else 
-            {
-                Console.WriteLine("Check if one is negative and one is positive: {0}", true);
-                Console.ReadKey();
-            }
+            Console.Write("Text: ");
+            string text = Console.ReadLine();
+            string extract = text.Substring(0, 1);
+            Console.WriteLine("{0}{1}{0}", extract, text, extract);
+            Console.ReadKey();
         }
     }
 }
