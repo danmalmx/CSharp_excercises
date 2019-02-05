@@ -57,3 +57,10 @@ w3resourc
 
 18. Write a C# program to check two given integers and return true if one is negative and one is positive. 
 
+19. Write a C# program to compute the sum of two given integers, if two values are equal then return the triple of their sum.
+
+20. Write a C# program to get the absolute value of the difference between two given numbers. Return double the absolute value of the difference if the first number is greater than second number.
+
+21. Write a C# program to check the sum of the two given integers and return true if one of the integer is 20 or if their sum is 20.
+
+22. Write a C# program to check if an given integer is within 20 of 100 or 200. 
