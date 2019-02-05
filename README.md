@@ -1,6 +1,6 @@
-# CSharp excercises
+# CSharp excercises - basic 
 
-### Excercices from https://www.w3resource.com/csharp-exercises/basic/index.php
+### Excercices (total of 65) from https://www.w3resource.com/csharp-exercises/basic/index.php
 
 1. Write a C# Sharp program to print Hello and your name in a separate line. Go to the editor
 
