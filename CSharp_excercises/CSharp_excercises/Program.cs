@@ -215,14 +215,28 @@ namespace CSharp_excercises
 
 
             //Excercise 21
-            Console.Write("Enter first integer: ");
-            var number_1 = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Enter second integer: ");
-            var number_2 = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Enter first integer: ");
+            //var number_1 = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Enter second integer: ");
+            //var number_2 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine((number_1 + number_2 == 20) || (number_1 == 20 || number_2 == 20));
+            //Console.WriteLine((number_1 + number_2 == 20) || (number_1 == 20 || number_2 == 20));
+            //Console.ReadKey();
+
+
+            //Excercise 22
+            Console.Write("Enter an integer: ");
+            int x = Convert.ToInt32(Console.ReadLine());
+
+            if (Math.Abs(x - 100) <=10 || Math.Abs(x - 200) <= 10)
+            {
+                Console.WriteLine(true);
+            } else
+            {
+            Console.WriteLine(false);
+            }
+
             Console.ReadKey();
-
         }
     }
 }
